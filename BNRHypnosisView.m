@@ -50,6 +50,9 @@
     
     // Draw the line!
     [path stroke];
+    
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+    [logoImage drawInRect:bounds];
 }
 
 @end
