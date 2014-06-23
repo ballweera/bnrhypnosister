@@ -14,7 +14,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        
+        // All BNRHypnosisViews start with a clear background color
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
