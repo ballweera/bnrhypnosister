@@ -57,6 +57,11 @@
     
     // Draw the line!
     [path stroke];
+    
+    CGRect innerBounds = CGRectMake(bounds.size.width / 4 , bounds.size.height / 4.0, 380 / 2.0, 561 / 2.0);
+    
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+    [logoImage drawInRect:innerBounds];
 }
 
 // When a finger touches the screen
